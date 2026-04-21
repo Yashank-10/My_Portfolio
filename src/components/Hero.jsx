@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import profileImage from "../assets/profile-removebg-preview.png";
 
 export default function Hero() {
   const textRef = useRef(null);
@@ -13,7 +14,7 @@ export default function Hero() {
     <header className="min-h-screen flex flex-col items-center justify-center pt-20 pb-10 px-4 sm:px-8">
       <div className="mb-8">
         <img
-          src="./src/assets/profile-removebg-preview.png"
+          src={profileImage}
           alt="Yashank profile"
           className="animate-bounce-slow w-52 h-52 sm:w-64 sm:h-64 rounded-full object-cover"
         />

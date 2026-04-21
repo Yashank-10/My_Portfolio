@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import journeyImage from "../assets/journey.jpeg";
 
 function useReveal() {
   const ref = useRef(null);
@@ -74,7 +75,7 @@ export default function About() {
           </div>
           <div className="polaroid polaroid-2 mx-auto max-w-xs w-full">
             <img
-              src="./src/assets/journey.jpeg"
+              src={journeyImage}
               alt="Where it all began"
               className="w-full h-48 sm:h-64 object-cover mb-4"
             />
