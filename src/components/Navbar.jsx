@@ -38,7 +38,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="https://drive.google.com/file/d/1YW7sEpQRlCmoI7qtXrsELv9htoPr_aP3/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1lMAohWOfEvRDZTntdqu27SOLVBZp56HB/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm font-semibold tracking-widest bg-green-700 hover:bg-green-800 text-white py-2 px-4 rounded-full transition-colors flex items-center gap-2"
